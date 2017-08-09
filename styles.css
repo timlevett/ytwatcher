@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    -webkit-app-region: drag;
+    background-color: white;
+    cursor: move;
+}
+label {
+    font-weight: bold;
+    padding: 10px 5px 10px;
+    font-size: 1.5em;
+}
+input {
+    border: 2px gray solid;
+    font-size: 1.25em;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+webview {
+    margin-top : 5px;
+    width: 100%;
+}
+
+#instructions {
+    padding: 0px 10px;
+}
+#header {
+    text-align: center;
+}
+
+button {
+    float: right;
+    margin: 10px;
+    background-color: #000;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+}

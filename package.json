@@ -1,0 +1,22 @@
+{
+  "name": "youtube-watcher",
+  "productName": "YouTube Watcher",
+  "version": "1.3.2",
+  "description": "A minimal youtube watcher application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "prebuild-osx": "rm -rf ytWatcher-darwin-x64",
+    "build-osx": "electron-packager . ytWatcher --platform=darwin --icon=./ytWatcher.icns"
+  },
+  "repository": "https://github.com/timlevett/ytwatcher",
+  "author": "timlevett",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "~1.6.2",
+    "electron-packager": "~8.7.1"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0"
+  }
+}
