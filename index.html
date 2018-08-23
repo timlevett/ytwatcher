@@ -3,13 +3,15 @@
   <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css"
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
   </head>
   <body>
     <h1 id="header">Youtube Watcher</h1>
     <p id="instructions">Enter a youtube video that you want to watch (the v parameter in a youtube URL). You can also provide the whole URL and we will just embed the page for you. Then hit enter.</p>
     <label id='videolabel'>Video ID or URL:</label><input id="videoID">
-    <button id='resizeBtn' style='display:none;'><i class="fa fa-arrows-alt" aria-hidden="true"></i></i></button>
+    <button id='resizeBtn' style='display:none;'>
+      <i class="fa fa-arrows-alt" aria-hidden="true"></i>
+    </button>
     <webview id="foo" src=""></webview>
     <p id="hideShowInstruction" style='display:none; color:#fff;'>
         To hide/restore do <i>CMD (Ctrl) + shift + E</i>
