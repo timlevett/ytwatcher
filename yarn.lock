@@ -360,9 +360,9 @@ electron-packager@~14.2.1:
     semver "^6.0.0"
     yargs-parser "^16.0.0"
 
-electron@^2.0.8:
-  version "2.0.8"
-  resolved "https://registry.yarnpkg.com/electron/-/electron-2.0.8.tgz#6ec7113b356e09cc9899797e0d41ebff8163e962"
+electron@^2.0.18:
+  version "2.0.18"
+  resolved "https://registry.yarnpkg.com/electron/-/electron-2.0.18.tgz#52f1b248c3cc013b5a870094de3b6ba5de313a0f"
   dependencies:
     "@types/node" "^8.0.24"
     electron-download "^3.0.1"
