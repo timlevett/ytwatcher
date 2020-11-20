@@ -231,9 +231,9 @@ electron-packager@~14.2.1:
     semver "^6.0.0"
     yargs-parser "^16.0.0"
 
-electron@^7.2.4:
-  version "7.2.4"
-  resolved "https://registry.yarnpkg.com/electron/-/electron-7.2.4.tgz#9fc0446dae23ead897af8742470cb18da55c6ce9"
+electron@^11.0.2:
+  version "11.0.2"
+  resolved "https://registry.yarnpkg.com/electron/-/electron-11.0.2.tgz#c7bd2b9abdc1446f4578dbfa22573014b6b2df58"
   dependencies:
     "@electron/get" "^1.0.1"
     "@types/node" "^12.0.12"
