@@ -1,5 +1,7 @@
 # File: .github/workflows/repo-sync.yml
 
+name: repo-sync
+
 on:
   schedule:
   - cron:  "*/15 * * * *"
@@ -13,7 +15,7 @@ jobs:
       with:
         persist-credentials: false
     - name: repo-sync
-      uses: repo-sync/github-sync@v2
+      uses: timlevtt/github-sync@v2
       with:
         source_repo: "https://${{ secrets.PAT }}@github.com/timlevett/ytwatcher.git"
         source_branch: "master"
