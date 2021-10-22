@@ -19,3 +19,4 @@ jobs:
         source_branch: "master"
         destination_branch: "master"
         sync_tags: "true"
+        github_token: ${{ secrets.PAT }}
