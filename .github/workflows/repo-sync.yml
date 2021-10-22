@@ -15,7 +15,7 @@ jobs:
       with:
         persist-credentials: false
     - name: repo-sync
-      uses: timlevtt/github-sync@v2
+      uses: timlevett/github-sync@v2
       with:
         source_repo: "https://${{ secrets.PAT }}@github.com/timlevett/ytwatcher.git"
         source_branch: "master"
