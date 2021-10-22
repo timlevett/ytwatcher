@@ -15,7 +15,7 @@ jobs:
     - name: repo-sync
       uses: repo-sync/github-sync@v2
       with:
-        source_repo: "git@github.com:timlevett/ytwatcher.git"
+        source_repo: "https://github.com/timlevett/ytwatcher.git"
         source_branch: "master"
         destination_branch: "master"
         sync_tags: "true"
